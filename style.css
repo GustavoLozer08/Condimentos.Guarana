@@ -1,0 +1,102 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e3;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8B4513;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Carrinho */
+.carrinho {
+    padding: 20px;
+}
+
+.itens-carrinho {
+    text-align: left;
+    margin: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.descricao {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.remover {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.remover:hover {
+    background-color: #d84c39;
+}
+
+/* Subtotal e Finalização */
+.subtotal {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #A52A2A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B0000;
+}
+
+/* Rodapé */
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}

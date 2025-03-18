@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Sabor & Aroma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Condimentos Guaraná</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho 🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção do Carrinho -->
+    <section class="carrinho">
+        <h2>Seu Carrinho</h2>
+
+        <!-- Lista de produtos -->
+        <div class="itens-carrinho"></div>
+
+        <!-- Subtotal -->
+        <div class="subtotal">
+            <p><strong>Subtotal:</strong> R$ <span id="valorTotal">0.00</span></p>
+            <button id="finalizarCompra">Finalizar Compra no WhatsApp</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Condimentos Guaraná - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="carrinho.js"></script>
+
+</body>
+</html>

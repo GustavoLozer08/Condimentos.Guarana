@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos - Condimentos Guaraná</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Condimentos Guaraná</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho 🛒 <span id="contadorCarrinho">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Produtos -->
+    <section class="produtos">
+        <h2>Nossos Condimentos</h2>
+        <div class="lista-produtos">
+
+            <div class="produto">
+                <img src="chimichurri.jpeg" alt="chimichurri">
+                <h3>chimichurri</h3>
+                <p>R$ 15,00</p>
+                <button onclick="adicionarAoCarrinho('chimichurri', 15)">Adicionar ao Carrinho</button>
+                <button onclick="removerDoCarrinho('chimichurri')">Remover</button>
+            </div>
+
+            <div class="produto">
+                <img src="alho.jpeg" alt="Alho">
+                <h3>Alho</h3>
+                <p>R$ 25,00</p>
+                <button onclick="adicionarAoCarrinho('Alho', 25)">Adicionar ao Carrinho</button>
+                <button onclick="removerDoCarrinho('Alho')">Remover</button>
+            </div>
+
+            <div class="produto">
+                <img src="pimenta.jpeg" alt="Pimenta">
+                <h3>Pimenta</h3>
+                <p>R$ 18,00</p>
+                <button onclick="adicionarAoCarrinho('Pimenta', 18)">Adicionar ao Carrinho</button>
+                <button onclick="removerDoCarrinho('Pimenta')">Remover</button>
+            </div>
+
+            <div class="produto">
+                <img src="tcompleto.jpeg" alt="Tempero Completo">
+                <h3>Tempero Completo</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Tempero Completo', 20)">Adicionar ao Carrinho</button>
+                <button onclick="removerDoCarrinho('Tempero Completo')">Remover</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Condimentos Guaraná - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
